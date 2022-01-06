@@ -52,7 +52,7 @@ function download_matlab_fig(btn_item:HTMLElement,fmt:string) {
 	a.dispatchEvent(evt);
 }
 
-function register_MATLAB_CodeMirror(code_mirror_singleton:ICodeMirror)
+function register_MATLAB_CodeMirror(code_mirror_singleton:any)
 {
   (code_mirror_singleton as any).defineMode("matlab",MATLAB_mode,"matlab");
 
