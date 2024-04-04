@@ -11,11 +11,14 @@ A JupyterLab extension for Mapyter
 
 ## Install
 
-To install the extension, execute:
+To install the extension, from inside the folder, execute:
 
 ```bash
-pip install jupyterlab_mapyter
+python -m pip install -ve .
+jupyter labextension develop --overwrite .
 ```
+
+For more information, visit the following [link](https://jupyterlab.readthedocs.io/en/3.6.x/extension/extension_tutorial.html).
 
 ## Uninstall
 
