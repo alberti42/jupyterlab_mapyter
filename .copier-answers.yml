@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: a.alberti82@gmail.com
+author_name: Andrea Alberti
+has_binder: true
+has_settings: false
+kind: frontend
+labextension_name: jupyterlab_mapyter
+project_short_description: A JupyterLab extension for Mapyter kernel
+python_name: jupyterlab_mapyter
+repository: https://github.com/alberti42/jupyterlab_mapyter
+test: false
+
