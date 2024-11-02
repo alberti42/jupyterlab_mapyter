@@ -57,6 +57,7 @@
     },
     "dependencies": {
         "@jupyterlab/application": "^4.0.0",
+        "@jupyterlab/codemirror": "^4.0.0",
         "@jupyterlab/fileeditor": "^4.3.0",
         "codemirror": "^6.0.1"
     },
