@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    node: true, // Add this line to define Node.js global variables like `module`
+    es6: true
+  },
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -12,14 +16,21 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
+    'prettier/prettier': [
+      'error',
+      {},
+      {
+        usePrettierrc: true
+      }
+    ],
     '@typescript-eslint/naming-convention': [
       'error',
       {
-        'selector': 'interface',
-        'format': ['PascalCase'],
-        'custom': {
-          'regex': '^I[A-Z]',
-          'match': true
+        selector: 'interface',
+        format: ['PascalCase'],
+        custom: {
+          regex: '^I[A-Z]',
+          match: true
         }
       }
     ],
