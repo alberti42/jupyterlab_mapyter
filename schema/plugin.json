@@ -1,23 +1,19 @@
 {
-	"title": "matlab-jupyterlab",
-	"description": "MATLAB extension settings.",
-	"jupyter.lab.shortcuts": [
-		{
-			"command": "notebook:move-cell-up",
-			"selector": ".jp-Notebook:focus",
-			"keys": [
-				"Ctrl ArrowUp"
-			]
-		},
-		{
-			"command": "notebook:move-cell-down",
-			"selector": ".jp-Notebook:focus",
-			"keys": [
-				"Ctrl ArrowDown"
-			]
-		}
-	],
-	"properties": {},
-	"additionalProperties": false,
-	"type": "object"
+  "title": "matlab-jupyterlab",
+  "description": "MATLAB extension settings.",
+  "jupyter.lab.shortcuts": [
+    {
+      "command": "notebook:move-cell-up",
+      "selector": ".jp-Notebook:focus",
+      "keys": ["Ctrl ArrowUp"]
+    },
+    {
+      "command": "notebook:move-cell-down",
+      "selector": ".jp-Notebook:focus",
+      "keys": ["Ctrl ArrowDown"]
+    }
+  ],
+  "properties": {},
+  "additionalProperties": false,
+  "type": "object"
 }
