@@ -3,7 +3,6 @@
 [![Github Actions Status](https://github.com/alberti42/jupyterlab_mapyter/workflows/Build/badge.svg)](https://github.com/alberti42/jupyterlab_mapyter/actions/workflows/build.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alberti42/jupyterlab_mapyter/main?urlpath=lab)
 
-
 A JupyterLab extension for Mapyter kernel
 
 ## Requirements
