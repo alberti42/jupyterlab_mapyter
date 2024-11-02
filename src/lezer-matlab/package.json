@@ -27,9 +27,9 @@
     "@lezer/lr": "^1.0.0"
   },
   "scripts": {
-    "build": "lezer-generator src/matlab.grammar -o src/parser && rollup -c && npm run copy-lezer-files-to-build-on-windows",
-    "build-debug": "lezer-generator src/matlab.grammar --names -o src/parser && rollup -c && npm run copy-lezer-files-to-build-on-windows",
-    "copy-lezer-files-to-build-on-windows": "copy src\\*.js dist\\ || true",
+    "build": "lezer-generator src/matlab.grammar -o src/parser && rollup -c && npm run copy-lezer-files-to-build-on-linux",
+    "build-debug": "lezer-generator src/matlab.grammar --names -o src/parser && rollup -c && npm run copy-lezer-files-to-build-on-linux",
+    "copy-lezer-files-to-build-on-linux": "cp src/*.js dist && rm src/parser.js src/parser.terms.js",
     "prepare": "npm run build",
     "test": "mocha test/test-*.js"
   }
