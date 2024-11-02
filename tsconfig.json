@@ -20,5 +20,8 @@
     "target": "ES2022",
     "types": ["codemirror"]
   },
-  "include": ["src/*"]
+  "include": [
+    "src/**/*.ts",
+    ".eslintrc.js"  // Add this line
+  ]
 }
